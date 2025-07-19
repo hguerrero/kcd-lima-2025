@@ -1,0 +1,17 @@
+apiVersion: eventing.knative.dev/v1
+kind: Broker
+metadata:
+  annotations:
+    # case-sensitive
+    eventing.knative.dev/broker.class: Kafka
+    # Optional annotation to point to an externally managed kafka topic:
+    # kafka.eventing.knative.dev/external.topic: <topic-name>
+  name: kafka-broker
+  namespace: default
+spec:
+  # Configuration specific to this broker.
+  config:
+    apiVersion: v1
+    kind: ConfigMap
+    name: kafka-broker-config
+    namespace: knative-eventing
