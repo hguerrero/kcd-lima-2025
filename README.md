@@ -219,4 +219,5 @@ Después de verificar el flujo con Sockeye, puedes continuar con el despliegue d
 - Revisa los manifiestos `kafka-trigger-*.yaml` y `kafka-source.yaml` para adaptarlos a tus necesidades.
 - Más información sobre Knative: [knative.dev](https://knative.dev/)
 - Más información sobre Strimzi: [strimzi.io](https://strimzi.io/)
-- Más información sobre KCD Lima:
+- Más información sobre KCD Lima: https://kcd-lima-peru-2025.sessionize.com/
+- Slides de la presentacion: https://speakerdeck.com/hguerrero/simplificando-la-gestion-de-eventos-con-knative-eventing
